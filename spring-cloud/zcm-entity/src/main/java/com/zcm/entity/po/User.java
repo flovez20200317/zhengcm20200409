@@ -11,7 +11,7 @@ import java.util.*;
 
 /**
  * @ClassName: User
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/26 10:52
  * @Version: 1.0.0
  * @Description: 相册 用户信息

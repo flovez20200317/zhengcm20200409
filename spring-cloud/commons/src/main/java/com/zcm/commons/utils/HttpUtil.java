@@ -19,7 +19,7 @@ import java.util.*;
 
 /**
  * @ClassName: HttpUtil
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/28 15:34
  * @Version: 1.0.0
  * @Description: HTTP帮助类

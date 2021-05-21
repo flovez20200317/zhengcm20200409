@@ -10,7 +10,7 @@ import java.util.*;
 
 /**
  * @ClassName: IdConfig
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/28 15:46
  * @Version: 1.0.0
  * @Description: ID生成器配置

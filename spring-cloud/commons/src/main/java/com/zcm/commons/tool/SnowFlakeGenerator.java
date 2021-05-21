@@ -4,7 +4,7 @@ import java.util.concurrent.atomic.*;
 
 /**
  * @ClassName: SnowFlakeGenerator
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/28 15:50
  * @Version: 1.0.0
  * @Description: 雪花算法

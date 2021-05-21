@@ -7,7 +7,7 @@ import java.util.*;
 
 /**
  * @ClassName: DingRobotUtil
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/28 15:27
  * @Version: 1.0.0
  * @Description: 钉钉机器人消息推送

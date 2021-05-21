@@ -6,7 +6,7 @@ import java.util.*;
 
 /**
  * @ClassName: UUidGenerator
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/28 15:51
  * @Version: 1.0.0
  * @Description: UUID
@@ -85,7 +85,7 @@ public class UUidGenerator {
     /**
      * 8位数字生成
      *
-     * @Author： FJW
+     * @Author： zcm
      * @Date： 2020/8/12 09:53
      * @Version : V2.0.0
      * @Description :

@@ -4,7 +4,7 @@ import java.util.*;
 
 /**
  * @ClassName: RandomUtil
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/28 15:51
  * @Version: 1.0.0
  * @Description: 随机处理类

@@ -5,7 +5,7 @@ import lombok.experimental.*;
 
 /**
  * @ClassName: UserDto
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/26 11:08
  * @Version: 1.0.0
  * @Description: 用户信息 数据传输对象

@@ -22,7 +22,7 @@ public class MybatisPlusConfig {
      * 分页插件
      *
      * @return com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor
-     * @Author: FJW
+     * @Author: zcm
      * @Version: 1.0.0
      * @Param:
      * @Date: 2021/5/11 14:10

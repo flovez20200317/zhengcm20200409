@@ -8,7 +8,7 @@ import org.springframework.web.servlet.config.annotation.*;
 
 /**
  * @ClassName: CrossOriginConfig
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/5/12 09:41
  * @Version: 1.0.0
  * @Description: 跨域访问

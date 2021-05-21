@@ -2,7 +2,7 @@ package com.zcm.commons.enumer;
 
 /**
  * @ClassName: ResultEnum
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/28 14:58
  * @Version: 1.0.0
  * @Description: 返回数据枚举统一封装

@@ -6,7 +6,7 @@ import org.springframework.context.annotation.*;
 
 /**
  * @ClassName: JestClientConfig
- * @Author: FJW
+ * @Author: zcm
  * @Date: 2021/4/19 15:57
  * @Version: 1.0.0
  * @Description: ElasticSearch  JestClient
