@@ -1,0 +1,28 @@
+#启动端口
+server:
+  port: 8001
+
+#Nacos注册服务
+spring:
+  application:
+    name: nacos-provider-zx-mxxc-manage
+  #开发、测试、生产环境切换
+  profiles:
+    #开发环境
+    active: dev
+    include: dev_define
+
+    #测试环境
+#    active: test
+#    include: test_define
+
+    #线上环境
+#    active: prod
+#    include: prod_define
+
+#暴露监控相关资源
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
