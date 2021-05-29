@@ -1,5 +1,4 @@
 package com.zcm.server.controller.inside;
-import com.zcm.entity.dto.*;
 import org.springframework.web.bind.annotation.*;
 
 /**
@@ -9,11 +8,11 @@ import org.springframework.web.bind.annotation.*;
  * @Version: 1.0.0
  * @Description: 测试接口
  */
-@RequestMapping("/test/api")
-public interface TestApi {
-    @RequestMapping("/testES")
-    void testES();
+@RequestMapping("/user")
+public interface UserApi {
 
-    @RequestMapping("/getUser")
-    UserDto getUser(String id);
+
+    @RequestMapping("/send/msg")
+    void sendMsg();
+
 }

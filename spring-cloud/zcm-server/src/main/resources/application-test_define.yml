@@ -1,11 +1,10 @@
 ###模拟演示死信队列
 zcm:
   dlx:
-    ###备胎交换机
     exchange: zcm_dlx_exchange
     queue: zcm_order_dlx_queue
     routingKey: dlx
-  #正常订单交换机
+  ###备胎交换机
   order:
     exchange: zcm_order_exchange
     queue: zcm_order_queue

@@ -24,4 +24,12 @@ public interface UserService extends IService<User> {
      * @Date: 2021/4/26 11:52
      */
     UserDto queryUserByid(UserVo vo);
+
+    /**
+     * @Description:发送消息
+     * @Author: zcm
+     * @Version：v.2.7.7
+     * @Date:2021/5/27 14:59
+     */
+    void sendMsg() throws Exception;
 }

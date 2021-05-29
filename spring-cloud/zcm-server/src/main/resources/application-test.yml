@@ -8,9 +8,9 @@ spring:
 
   #MySQL
   datasource:
-    url: jdbc:mysql://localhost:3306/test?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://192.168.0.144:3306/zx_tools_test?serverTimezone=GMT%2B8&useUnicode=true&characterEncoding=utf-8
     username: root
-    password: 123456
+    password: Aa123456!
     driver-class-name: com.mysql.jdbc.Driver
     platform: mysql
     type: com.alibaba.druid.pool.DruidDataSource
@@ -54,37 +54,38 @@ spring:
   #Redis
   redis:
     database: 7
-    host: 127.0.0.1
+    host: 192.168.0.144
     port: 6379
 
   #Rabbitmq
   rabbitmq:
-    host: 127.0.0.1
+    host: 192.168.0.144
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: 123456
 #    publisherReturns: true
-#    listener:
-#      direct:
-#        retry:
-#          max-attempts: 3
-#          enabled: true
-#        acknowledge-mode: manual
-#        #限流（海量数据，同时只能过来一条）
-#        prefetch: 5
-#      simple:
-#        acknowledge-mode: manual
-#        #限流（海量数据，同时只能过来一条）
-#        concurrency: 15
-#        prefetch: 5
-#        max-concurrency: 15
-#      type: direct
+    listener:
+      direct:
+        retry:
+          max-attempts: 3
+          enabled: true
+          initial-interval: 3000
+        acknowledge-mode: manual
+        #限流（海量数据，同时只能过来一条）
+        prefetch: 5
+      simple:
+        acknowledge-mode: manual
+        #限流（海量数据，同时只能过来一条）
+        concurrency: 15
+        prefetch: 5
+        max-concurrency: 15
+      type: direct
     virtual-host: /cloud
 
 # ElasticSearch Jest Client
 elasticsearch:
   jestClient:
-    uris: http://127.0.0.1:9200
+    uris: http://192.168.0.144:9200
 
 #指定mybatis-plus映射文件的地址
 mybatis-plus:
