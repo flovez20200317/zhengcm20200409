@@ -22,7 +22,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <mysql.version>5.1.49</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <druid.version>1.2.6</druid.version>
         <mybatis.plus.version>3.4.2</mybatis.plus.version>
         <elasticsearch.version>5.4.3</elasticsearch.version>
